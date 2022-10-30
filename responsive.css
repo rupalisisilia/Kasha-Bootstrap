@@ -23,6 +23,9 @@
 	body{
 		/* background-color: blue; */
 	}
+	.carousel-section{
+		margin-top: 60px;
+	}
 
  }
  
@@ -32,6 +35,9 @@
 		/* background-color: red */
 	}
 	.section-special{
+		margin-top: 100px;
+	}
+	.carousel-section{
 		margin-top: 100px;
 	}
 }
