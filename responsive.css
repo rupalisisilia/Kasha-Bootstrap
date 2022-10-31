@@ -26,6 +26,9 @@
 	.carousel-section{
 		margin-top: 60px;
 	}
+	.section-discount img{
+		margin-top: 20px;
+	}
 
  }
  
@@ -39,6 +42,9 @@
 	}
 	.carousel-section{
 		margin-top: 100px;
+	}
+	.section-discount img{
+		margin-top: 20px;
 	}
 }
  
