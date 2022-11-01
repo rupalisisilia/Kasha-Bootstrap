@@ -3,6 +3,9 @@
 .fa-heart{
 	color:rgb(220, 25, 25);
 }
+.carousel-section .text{
+	font-size: 1.4rem;
+}
 
 .card-header{
 	text-align: center;
