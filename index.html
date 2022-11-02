@@ -5,52 +5,25 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Kasha</title>
+	<title>Kasha - Bootstrap</title>
+	<!--bootstrap-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css" integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
 		integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 	<!--aos css-->
-	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="responsive.css">
-	
-	
-
 </head>
 
 <body>
 	<!--navbar start-->
-	 <div class="nav">
-		<div class="container">
-			<div class="nav-wrapper">
-				<a href="./index.html" class="logo">
-					<img src="./images/kasha.png" alt="Logo">
-				</a>
-				<nav>
-					<div class="nav__icon">
-						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg> 
-					</div>
-					<div class="nav__bgoverlay"></div>
-					<ul class="nav__list">
-						<div class="nav__close">
-						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-						</div>
-					<div class="nav__list__wrapper">
-						<li><a href="./index.html" class="nav__link">Food-Items</a></li>
-						<li><a href="#special-items" class="nav__link">Special-Items</a></li>
-						<li><a href="#top-dishes" class="nav__link">Top-Dishes</a></li>
-						<li><a href="#contac" class="nav__link">Contact</a></li>
-						<li><a href="#booking" class="btn btn-success">Book Table</a></li>
-					</div>
-				</nav>
-			</div>
-		</div>
-	</div>
-
-	<!-- <div>
+	<div>
 		<nav class="navbar navbar-expand-lg navbar-light  bg-light fixed-top">
 			<div class="container">
 				<a class="navbar-brand" href="index.html"><img src="./images/kasha.png" alt="Logo" width="200px"
@@ -74,9 +47,9 @@
 						<li class="nav-item ms">
 							<a class="nav-link" href="#">Contact</a>
 						</li>
-						<li class="nav-item ms"> -->
+						<li class="nav-item ms">
 							<!-- <button class="btn btn-success">Book Table</button> -->
-							<!-- <a class="nav-link" href="./booking.html">Book Table</a>
+							<a class="nav-link" href="./booking.html">Book Table</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -94,8 +67,9 @@
 			</div>
 		</nav>
 	</div>
+
+
 	<!--navbar end-->
-	
 	<!--carousel-->
 	<div class="carousel-section">
 		<div class="container">
@@ -269,18 +243,16 @@
 					<div class="card h-100">
 						<img class="card-img" src="./images/birani1.png" alt="">
 						<h4 class="card-title p-3">Chicken Biryani</h4>
-						<p class="text p-2">These Chicken Biryani bowl are a glorious, messy plate of goodness. Crispy chicken Biryani loaded with lots of fresh summer vegetables and a lime ranch.</p>
+						<p class="text p-2">These Chicken Biryani bowl are a glorious, messy plate of goodness. Crispy
+							chicken Biryani loaded with lots of fresh summer vegetables and a lime ranch.</p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="text">
 						<h2 class="card-title p-3">Our Special-Items</h2>
 					</div>
-					<p class="text p-2">All of our food is prepared daily at our restaurants to ensure the highest quality, freshest meals are delivered to our customers.<br></br>
-						These Chicken Biryani bowl are a glorious, messy plate of goodness. Crispy chicken Biryani loaded with lots of fresh summer vegetables and a lime ranch. <br></br>
-						All of our food is prepared daily at our restaurants to ensure the highest quality, freshest meals are delivered to our customers.<br></br>
-						All of our food is prepared daily at our restaurants to ensure the highest quality, freshest meals are delivered to our customers.<br></br>
-					</p>
+					<p class="text p-2">All of our food is prepared daily at our restaurants to ensure the highest
+						quality, freshest meals are delivered to our customers</p>
 					<button class="btn btn-success">Book Table</button>
 				</div>
 			</div>
@@ -292,7 +264,7 @@
 
 
 	<!--our top section-->
-	<section id="section-top">
+	<section class="section-top">
 		<div class="container">
 			<h2 class="card-header">Our Top-Dishes</h2>
 			<div class="row mt-4">
@@ -375,6 +347,10 @@
 		</div>
 	</section>
 
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
 
 	<!--aos script-->
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
